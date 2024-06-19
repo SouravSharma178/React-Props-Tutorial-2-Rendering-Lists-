@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(41, 67, 67);
+    color: white;
+}
+
+.container{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 1000px;
+    float: left;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid rgb(18, 118, 151);
+}
+.ChildContainerFlex{
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    border: 1px solid greenyellow;
+}
